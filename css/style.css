@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(26, 25, 25);
+}
+
+.about {
+    border-style: dotted;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+.contribute {
+    border-style: dotted;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+.goerlicon {
+    border-style: dotted;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+.code {
+    border-style: dotted;
+    padding: 10px;
+    color:whitesmoke;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    color: paleturquoise;
+}
+
+h1.heroText {
+    -webkit-animation: colorchange 1s infinite alternate;
+	-moz-animation: color-change 1s infinite alternate;
+	-ms-animation: color-change 1s infinite alternate;
+	-o-animation: color-change 1s infinite alternate;
+	animation: color-change 1s infinite alternate;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: greenyellow; }
+}
+
+
+h4 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+h5 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+h6, a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: paleturquoise;
+}
+
+#topNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: pink;
+}
+
+.common-paragraph {
+    white-space: normal;
+}
+
+.ascii-art {
+    white-space: pre-wrap;
+}
+
+.nav-item {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+--------------------------------
+
+--------------------------------
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+/* visited link */
+a:visited {
+    color: paleturquoise;
+  }
+  
+/* mouse over link */
+a:hover {
+    color: hotpink;
+  }
+  
+/* selected link */
+a:active {
+    color: paleturquoise;
+  }
