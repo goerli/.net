@@ -83,14 +83,22 @@ h5 {
     color: white;
 }
 
-h6, a {
+h6 {
     font-family: 'Source Code Pro', monospace;
     font-size: 13px;
     font-weight: 400;
     margin: 0px;
     color: white;
     text-decoration: none;
+}
 
+a {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+    color: paleturquoise;
+    text-decoration: none;
 }
 
 p {
@@ -132,12 +140,12 @@ p {
 
 /* unvisited link */
 a:link {
-    color: paleturquoise;
+    color: black;
   }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: paleturquoise;
   }
 
 /* mouse over link */
