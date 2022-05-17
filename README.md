@@ -10,5 +10,5 @@ the amazing goerli.net website
                 |Görli Testnet|
                 "-------------'
 
-https://goerli.net/
- 
+* Website: https://goerli.net/
+* Matrix: `#goerli_chat:gitter.im` (bridged to `gitter.im/goerli/chat`)
