@@ -20,10 +20,10 @@ body {
     color:whitesmoke;
 }
 
-.code {
+code {
     border-style: dotted;
-    padding: 10px;
-    color:whitesmoke;
+    padding: 2px;
+    color: grey !important;;
 }
 
 h1 {
